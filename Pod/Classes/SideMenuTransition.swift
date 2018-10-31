@@ -63,8 +63,8 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition {
     required public init(sideMenuManager: SideMenuManager) {
         super.init()
         
-        NotificationCenter.default.addObserver(self, selector:#selector(handleNotification), name: UIApplication.didEnterBackgroundNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector:#selector(handleNotification), name: UIApplication.willChangeStatusBarFrameNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector:#selector(handleNotification), name: NSNotification.Name.didEnterBackgroundNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector:#selector(handleNotification), name: NSNotification.Name.willChangeStatusBarFrameNotification, object: nil)
         self.sideMenuManager = sideMenuManager
     }
     
