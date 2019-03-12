@@ -12,9 +12,9 @@
 > Fork from jonkykong/SideMenu.
 
 ### We use
-| Slide Out | Slide In | Dissolve | Slide In + Out |
-| --- | --- | --- | --- |
-| ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideOut.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideIn.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/Dissolve.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/InOut.gif) |
+| Slide Out | Slide In |
+| --- | --- |
+| ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideOut.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/InOut.gif) |
 
 ## Requirements
 - [x] Xcode 10.
